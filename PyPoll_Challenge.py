@@ -108,15 +108,15 @@ with open(file_to_save, "w") as txt_file:
     
 
         #this needs to be moved to terminal
-        #print(f"{candidate_countyname}: received {vote_percentage:.1f}% of the vote.")
+        #print(f"{candidate_countyname}: received {county_results:.1f}% of the vote.")
 
          # 6e: Save the county votes to a text file.
-    txt_file.write(county_results)
+        txt_file.write(county_results)
 
-         # 6f: Write an if statement to determine the winning county and get its vote count.
-    if(county_vote> countynumber_lgstturnout):
-            countynumber_lgstturnout = county_vote
-            countyname_lgstturnout = county
+            # 6f: Write an if statement to determine the winning county and get its vote count.
+        if(county_vote> countynumber_lgstturnout):
+                countynumber_lgstturnout = county_vote
+                countyname_lgstturnout = county
 
     
     # 7: Print the county with the largest turnout to the terminal.
