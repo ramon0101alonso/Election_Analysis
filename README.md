@@ -15,4 +15,9 @@
 
 ## Election-Audit Summary: 
 
-#In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
+#In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. By using the *PyPoll_Challenge.py*, the election commission can reuse the code the obtain voter information as shown in the picture above.  The code can be modified to get information for county and candidate.  This data can then be transferred to text file for further auditing.  
+
+#Two examples on how this script can be modified are:
+- Find the county with the lowest county turnout.
+- Find the lowest vote count.
+
