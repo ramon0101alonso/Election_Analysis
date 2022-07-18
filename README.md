@@ -3,7 +3,7 @@
 ## Analysis of Deliverables 1 and 2. 
 
 ## Overview of Election Audit:
-### The purpose of this analysis was to obatain Election-Audit Results.  The data was collected from ** election_results.csv ** . This information was audidted and exported to a text file with name ** election_analysis.txt ** .
+### The purpose of this analysis was to obatain Election-Audit Results.  The data was collected from **election_results.csv** . This information was audidted and exported to a text file with name ** election_analysis.txt ** .
 
 ### Through the use of for loops, variables, and with statements, I was able to get the following information:
 - The voter turnout for each county
